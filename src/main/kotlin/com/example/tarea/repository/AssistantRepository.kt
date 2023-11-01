@@ -8,3 +8,4 @@ import org.springframework.stereotype.Repository
 interface AssistantRepository : JpaRepository<Assistant, Long?>{
     fun findById (id: Long?): Assistant?
 }
+//CTRDCRD
